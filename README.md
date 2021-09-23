@@ -1,3 +1,19 @@
+# CloudLab on ESI - Project Description
+## 1. Vision and Goals Of The Project:
+The Open Cloud Testbed(OCT) is a large scale testbed for cloud computing utilizing high performance network services. It provides bare metal resources to system researchers for their experimentations/investigations. An example of OCT is CloudLab. Often, these testbeds are notoriously overbooked and oversubscribed close to conference deadlines.
+​
+The goal of this project is to make resources available to cloud computing research with flexibility. This is where ESI comes into play. ESI or the Elastic Secure Infrastructure enables rapid multiplexing of bare-metal servers between clusters. We use one control framework - CloudLab - and modify it such that it can interface with ESI to obtain resources and put them in a CloudLab cluster and make them available to the user community. We implement and evaluate the following functionality:
+​
+*  To set up a configuration of ESI such that it controls all resources housed in a particular rack which in turn helps to put an entire CloudLab testbed rack under ESI control. 
+* To set up signaling such that ESI can signal CloudLab control framework about new resources. Additionally, CloudLab can also signal ESI back about resources that have been released so that ESI can put them back in the pool of unassigned resources. 
+* To test the mentioned framework thoroughly.
+​
+## 2. Users/Personas Of The Project:
+This project will be used by researchers who subscribe to CloudLab services to evaluate and investigate their experiments. It does not target end-users of websites deployed on cloud. It is a system interface that framework (CloudLab) will call to allocate and reallocate servers.
+​
+As a stretch goal, the idea of this project is to make it available to users across other control frameworks like Chameleon.
+​
+​
 ## 4. Solution Concept
 
 **Current Architecture**
@@ -33,3 +49,5 @@ Above mentioned changes require the following steps:
 * Step 1: Identification of the commands that are invoked by CloudLab for all the management operations.
 * Step 2: Identification of suitable ESI commands that can be used as a replacement.
 * Step 3: Implementation of these calls in the CloudLab code.
+## 5. Acceptance Criteria:
+Minimum acceptance criteria is a to be able to migrate a single CloudLab cluster seamlessly on ESI without having to share confidential information like passwords. 
