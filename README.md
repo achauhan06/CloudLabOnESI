@@ -26,7 +26,7 @@ Following are the steps to make CloudLab as the common platform accross all the 
 
 * Changing ESI configurations: This will make it the common point of control under which the complete OCT rack resides. 
 
-* Signaling between ESI and CloudLab: Whenever resources are no longer being utilized, Cloudlab should signal back to ESI so that these resources can be made available to ESI for putting them back in the pool of unassigned resources.
+* Signaling between ESI and CloudLab: Whenever resources are no longer being utilized, CloudLab should signal back to ESI so that these resources can be made available to ESI for putting them back in the pool of unassigned resources.
 
 Above mentioned changes require following steps:
 
