@@ -22,7 +22,6 @@ Below is a description of the system components that are the building blocks of 
 
 Key design decisions and motivation behind them.
 
-This solution comprises of the following changes:
 Following are the steps to make CloudLab as the common platform accross all the universities in order to provision resources and make ESI the middle layer for managing all the baremetal machines:
 
 * Changing ESI configurations: This will make it the common point of control under which the complete OCT rack resides. 
