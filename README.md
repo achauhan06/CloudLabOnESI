@@ -8,10 +8,10 @@ To access a resource across these universities is a challenging task that involv
 
 
 
- 
-![Cloudlab on ESI Architecture](https://user-images.githubusercontent.com/60124910/134443639-f8aeba2b-f611-4e33-aeb8-d72ee4f4cc01.png "Figure 1: Cloudlab on ESI Architecture")
- 
- 
+**Cloudlab on ESI Architecture** 
+![Cloudlab on ESI Architecture](https://user-images.githubusercontent.com/60124910/134443639-f8aeba2b-f611-4e33-aeb8-d72ee4f4cc01.png)
+
+
 Design Implications and Discussion:
 
 Key design decisions and motivation behind them.
