@@ -1,6 +1,6 @@
 ## 4. Solution Concept
 
-### Current Architecture:
+**Current Architecture**
 
 UMass Amherst owns several racks of servers which they access through CloudLab which is a software that manage those resources. This also makes these shared resources available to other CloudLab users and allows them to interconnect them with other CloudLab data centers. Similary, Boston University and Northeastern University have a set of racks which they share between themselves through ESI which is a similar software that provides this management service.
 
