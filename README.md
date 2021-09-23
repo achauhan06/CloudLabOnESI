@@ -22,4 +22,11 @@ Below is a description of the system components that are building blocks of the 
 
 Key design decisions and motivation behind them.
 
-This section discusses the implications and reasons of the design decisions made during the global architecture design.
+This solution comprises of the following changes:
+Following are the steps to make CloudLab as the common platform accross all the universities in order to provision resources and make ESI the middle layer for managing all the baremetal machines:
+
+* Identify the commands that are invoked by CloudLab for all the management operations
+
+* Identify suitable ESI commands that can be used as a replacement
+
+* Implement these calls in the CloudLab code
