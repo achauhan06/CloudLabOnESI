@@ -8,7 +8,7 @@ To access a resource across these universities is a challenging task that involv
 
 **CloudLab on ESI Architecture** 
 
-Below is a description of the system components that are building blocks of the architectural design:
+Below is a description of the system components that are the building blocks of the architectural design:
 
 * CloudLab: A management framework designed for researchers to run experiments on customizable cloud infrastructure.
 
