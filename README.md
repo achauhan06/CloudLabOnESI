@@ -66,3 +66,20 @@ Above mentioned changes require the following steps:
 * Step 3: Implementation of these calls in the CloudLab code.
 ## 5. Acceptance Criteria:
 Minimum acceptance criteria is a to be able to migrate a single CloudLab cluster seamlessly on ESI without having to share confidential information like passwords. 
+## 6. Release Planning
+
+
+Release #1 (due by Week 5): 
+
+
+Release #2 (due by Week 7): 
+
+
+Release #3 (due by Week 9): 
+
+
+
+Release #4 (due by Week 11):
+
+
+Release #5 (due by Week 13):
