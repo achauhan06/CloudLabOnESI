@@ -70,21 +70,21 @@ Minimum acceptance criteria is a to be able to migrate a single CloudLab cluster
 
 The tentative release planning is given below: 
 
-Release #1 (due by Week 5): 
+Release #1: 
 
 First and foremost thing is to understand the working of the CloudLab so in the first release of this project, we will present a tutorial/demo on: 
 * How to setup an account on CloudLab 
 * How to select a profile for your experiment and reserve the appropriate resources (Memory, Node Cluster, Network etc.)
 * How to create a Linux instance on OpenStack  
 
-Release #2 (due by Week 7): 
+Release #2: 
 
 
-Release #3 (due by Week 9): 
+Release #3: 
 
 
 
-Release #4 (due by Week 11):
+Release #4:
 
 
-Release #5 (due by Week 13):
+Release #5:
