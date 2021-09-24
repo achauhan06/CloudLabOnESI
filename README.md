@@ -28,7 +28,6 @@ As a stretch goal, the idea of this project is to make it available to users acr
 		To reach the nodes offered by other platforms 
 * Security: Secure movement of nodes from ESI to CloudLab and vice versa
 * Efficiency: Increasing aggregate resource efficiency 
-* 
 ## 4. Solution Concept
 
 **Current Architecture**
