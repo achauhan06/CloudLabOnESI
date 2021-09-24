@@ -68,9 +68,14 @@ Above mentioned changes require the following steps:
 Minimum acceptance criteria is a to be able to migrate a single CloudLab cluster seamlessly on ESI without having to share confidential information like passwords. 
 ## 6. Release Planning
 
+The tentative release planning is given below: 
 
 Release #1 (due by Week 5): 
 
+First and foremost thing is to understand the working of the CloudLab so in the first release of this project, we will present a tutorial/demo on: 
+* How to setup an account on CloudLab 
+* How to select a profile for your experiment and reserve the appropriate resources (Memory, Node Cluster, Network etc.)
+* How to create a Linux instance on OpenStack  
 
 Release #2 (due by Week 7): 
 
