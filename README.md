@@ -14,6 +14,21 @@ This project will be used by researchers who subscribe to CloudLab services to e
 As a stretch goal, the idea of this project is to make it available to users across other control frameworks like Chameleon.
 ​
 ​
+## 3. Scope and Features Of The Project:
+
+* Dynamic movement of shared hardware between CloudLab & ESI on demand 
+* CloudLab working on top of ESI, 
+    * making ESI a base/lower layer for shared resources reserved by BU, NE & UMass 
+        * enabling seamless movement of node clusters 
+
+    * Doesn’t require CloudLab to have: 
+        * Full access to Node Management API 
+        * Full access to switches 
+        * Access to Login Credential 
+		To reach the nodes offered by other platforms 
+* Security: Secure movement of nodes from ESI to CloudLab and vice versa
+* Efficiency: Increasing aggregate resource efficiency 
+* 
 ## 4. Solution Concept
 
 **Current Architecture**
